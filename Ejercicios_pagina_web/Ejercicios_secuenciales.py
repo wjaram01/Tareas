@@ -5,7 +5,7 @@ class EstructuraSecuenciales:
     
     def Secuencial_1(self):
         subtotal = float(input("Ingrese el total de la compra: "))
-        Descuento = subtotal*0.15
+        Descuento = subtotal * 0.15
         total = subtotal-Descuento
         print("El total de la compra es {}, su valor a pagar es {}" .format(subtotal, total))
     
