@@ -12,7 +12,7 @@ class arreglos:
             num = int(input("Ingrese la nota de los examenes: "))
             numeros.append(num)
             while num == 0:
-                print("Numero 0, no es positivo ni negativo")
+                print("Numero 0, no es positivo ni negativo ")
                 num = int(input("Ingrese la nota de los examenes: "))
                 numeros.append(num)
         for i in numeros:
