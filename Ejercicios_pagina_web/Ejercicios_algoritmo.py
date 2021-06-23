@@ -5,7 +5,7 @@ class algoritmo_1:
     def area_circ(self):
         radio = float(input("Ingrese el radio del circulo: "))
         superficie = self.pi * (radio**2)
-        print("La superficie del circulo es {}" .format(superficie))
+        print("La superficie del circulo es: {}" .format(superficie))
 
 
 circulo = algoritmo_1()
