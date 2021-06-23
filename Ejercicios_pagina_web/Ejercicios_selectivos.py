@@ -39,7 +39,7 @@ class estructura_selectivas:
             pago_total = pago_hora * 40 + pago_hora_extra
         else:
             pago_total = pago_hora * horas_trabajadas
-        print("El pago total por las horas trabajadas es {}" .format(pago_total))
+        print("El pago total por las horas trabajadas es: {}" .format(pago_total))
 
     def Selectivas5(self):
         n1 = int(input("Ingrese el primer número: "))
