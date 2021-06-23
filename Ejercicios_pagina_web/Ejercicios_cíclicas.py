@@ -34,7 +34,7 @@ class EstructuraCiclicas:
         while res == "S":
             n = int(input("Ingrese un número: "))
             suma = suma + n
-            pro = prod * n
+            prod = prod * n
             print("El total de la suma es: {}" .format(suma))
             print("El total del producto es: {}" .format(prod))
             print("Desea continuar [S/N]:  ")
