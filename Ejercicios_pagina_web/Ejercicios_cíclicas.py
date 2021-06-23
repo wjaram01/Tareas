@@ -2,7 +2,7 @@ class EstructuraCiclicas:
     def __init__(self):
         pass
     
-    "ESTRUCTURAS FOR"
+    # ESTRUCTURAS FOR
     def Ciclo_For(self):
         acumulador = 0
         for i in range(0, 100):
