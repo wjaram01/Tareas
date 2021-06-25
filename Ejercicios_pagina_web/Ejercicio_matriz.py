@@ -23,7 +23,7 @@ class examenes:
             prom = acum/30
             self.prom_exam.append(prom)
             print("Promedio de examenes de la materia: {}, es de {}".format(j+1, prom))
-            return self.prom_exam
+        return self.prom_exam
 
     def Promedio_alumno(self):
         for i in range(0, 30):
